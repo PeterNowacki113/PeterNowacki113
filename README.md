@@ -1,92 +1,94 @@
 # SoftCode — Piotr Nowacki
 
-**Builder of digital systems for real business operations.**
+**Tworzę systemy cyfrowe dla realnych procesów biznesowych.**
 
-I design and build custom software for companies that need more than a website or a collection of disconnected tools. My work focuses on internal platforms, operational systems, AI-assisted workflows and infrastructure that supports day-to-day business processes.
+Projektuję i buduję dedykowane oprogramowanie dla firm, które potrzebują czegoś więcej niż strony internetowej albo zestawu niepołączonych narzędzi. Skupiam się na systemach operacyjnych, aplikacjach wewnętrznych, SaaS, AI/OCR oraz infrastrukturze potrzebnej do codziennej pracy firmy.
+
+**English summary:** I build custom business software, SaaS products and AI-assisted operational systems, with a focus on real business processes, infrastructure and production-ready delivery.
 
 [softcode-ai.pl](https://softcode-ai.pl)
 
 ---
 
-## Selected work
+## Wybrane projekty
 
 ### Costor
 
-**My own SaaS product for construction and renovation companies.**
+**Mój autorski SaaS dla firm remontowo-budowlanych.**
 
-Costor connects field data collection, AI-assisted estimates, price books, schedules, financial workflows, documents and integrations in one operational system. The product is designed around an **estimate-first** workflow: an accepted estimate becomes the basis for scheduling, financial control and downstream documents.
+Costor łączy zbieranie danych w terenie, wyceny wspomagane AI, cenniki, harmonogramy, finanse, dokumenty i integracje w jednym systemie operacyjnym. Produkt jest rozwijany w modelu **estimate-first** — zaakceptowana wycena staje się podstawą kolejnych procesów: harmonogramu, kontroli finansowej i dokumentów.
 
-**Architecture:** Next.js 16 · React 19 · TypeScript · NestJS 11 · Prisma · PostgreSQL · Redis · Python/FastAPI AI worker · Docker
+**Architektura:** Next.js 16 · React 19 · TypeScript · NestJS 11 · Prisma · PostgreSQL · Redis · Python/FastAPI AI worker · Docker
 
-**Highlights:**
-- desktop + mobile estimating workflow,
-- AI-assisted estimate generation with deterministic validation,
-- price-book management and audit,
-- work schedules and PDF reporting,
-- finance and KSeF-oriented workflows,
-- Stripe subscription billing,
-- tenant-aware architecture,
-- separate production and staging environments,
-- health checks, smoke tests and operational monitoring.
+**Najważniejsze elementy:**
+- desktopowy i mobilny workflow wyceny,
+- generowanie szkiców wycen z pomocą AI i deterministyczna walidacja,
+- zarządzanie cennikiem,
+- harmonogramy prac i raporty PDF,
+- finanse i procesy powiązane z KSeF,
+- billing Stripe,
+- architektura tenant-aware,
+- osobne środowiska produkcyjne i testowe,
+- health checki, smoke testy i monitoring operacyjny.
 
-[Visit Costor](https://costor.eu)
+[Zobacz Costor](https://costor.eu)
 
 ### Construction Operations Platform
 
-A large internal operations platform for a construction company coordinating office staff, field crews, equipment, documents, reporting and mobile workflows. The system combines web applications, PWA/offline behavior, API services, background processing and CI/CD-driven delivery.
+Duża wewnętrzna platforma operacyjna dla firmy budowlanej koordynującej pracę biura i wielu ekip terenowych. System łączy zarządzanie budowami, brygadami, sprzętem, dokumentami, raportami, aplikacją mobilną/PWA, OCR/AI oraz procesem wdrożeniowym opartym o GitHub i CI/CD.
 
 ### AI Document Processing
 
-OCR and AI-assisted workflows for extracting, classifying and validating business documents while keeping critical calculations and decisions under deterministic application control.
+Workflow OCR/AI do ekstrakcji, klasyfikacji i walidacji dokumentów biznesowych, przy zachowaniu zasady, że krytyczne liczby i decyzje są kontrolowane deterministycznie przez aplikację.
 
 ---
 
-## What I build
+## Co buduję
 
-- Custom business applications
-- Internal operational platforms
-- SaaS products
-- Web applications and PWA
-- AI / OCR assisted workflows
-- Backend APIs and integrations
-- Docker-based deployments and VPS infrastructure
-- CI/CD and GitHub-centered development workflows
+- dedykowane aplikacje biznesowe,
+- wewnętrzne platformy operacyjne,
+- produkty SaaS,
+- aplikacje webowe i PWA,
+- workflow AI / OCR,
+- backend API i integracje,
+- wdrożenia Docker/VPS,
+- CI/CD i workflow oparty o GitHub.
 
-## Core stack
+## Główny stack
 
 `Next.js` · `React` · `TypeScript` · `NestJS` · `Python` · `FastAPI` · `PostgreSQL` · `Redis` · `Prisma` · `Docker` · `Linux` · `GitHub Actions`
 
-## How I work
+## Jak pracuję
 
-I prefer building systems around real processes instead of forcing companies into generic software.
+Wolę budować system wokół realnego procesu firmy, zamiast wciskać firmę w gotowy schemat narzędzia.
 
-My usual approach is:
+Mój typowy proces:
 
-`problem → process model → application architecture → implementation → CI/CD → deployment → iteration`
+`problem → model procesu → architektura → implementacja → CI/CD → wdrożenie → iteracja`
 
-GitHub is used as an operational layer for development: Issues, branches, Pull Requests, CI and deployment history are treated as part of the product workflow, not only as source-code storage.
+GitHub traktuję jako warstwę operacyjną developmentu: Issues, branche, Pull Requesty, CI i historia wdrożeń są częścią procesu tworzenia produktu, a nie tylko magazynem kodu.
 
-## Selected capabilities
+## Kompetencje
 
 **Frontend**  
-Next.js, React, TypeScript, responsive web applications, PWA
+Next.js, React, TypeScript, responsywne aplikacje webowe, PWA
 
 **Backend**  
-NestJS, Python, FastAPI, REST APIs, background workers, integrations
+NestJS, Python, FastAPI, REST API, background workers, integracje
 
-**Data**  
-PostgreSQL, Redis, Prisma, migrations, structured business data
+**Dane**  
+PostgreSQL, Redis, Prisma, migracje, strukturyzowane dane biznesowe
 
-**AI & automation**  
-OpenAI-based workflows, OCR, document processing, AI workers, deterministic validation
+**AI i automatyzacja**  
+OpenAI, OCR, przetwarzanie dokumentów, AI workers, deterministyczna walidacja
 
-**Infrastructure**  
-Docker, Linux, VPS, reverse proxy, GitHub Actions, CI/CD, monitoring and smoke tests
+**Infrastruktura**  
+Docker, Linux, VPS, reverse proxy, GitHub Actions, CI/CD, monitoring i smoke testy
 
 ---
 
 ### SoftCode
 
-Custom software, business systems and AI-powered applications.
+Dedykowane oprogramowanie, systemy biznesowe i aplikacje wspomagane AI.
 
-**Website:** [softcode-ai.pl](https://softcode-ai.pl)
+**Strona:** [softcode-ai.pl](https://softcode-ai.pl)
